@@ -1,0 +1,255 @@
+@import url();
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../font/panthera/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url(../font/beyno/BEYNO.ttf);
+}
+@font-face {
+    font-family: 'Wakanda4ever';
+    src: url(../font/wakanda/Wakanda4Ever-gxg5p.ttf);
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../font/cantarell/Cantarell-Regular.ttf);
+}
+:root{
+    --white-color: #FFFFFF;
+    --gradient-white: #F2CEF2; 
+    --light-blue: #9E91B7;
+    --lighter-blue: #DF99F2;
+    --blue-color: #3D2DA6;
+    --blue-color2: #07338C;
+    --purple-color: #021740;
+}
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Panthera';
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--light-blue);
+}
+h5{
+    font-family: 'Beyno';
+    font-size: 28px;
+    font-weight: 200;
+    color: var(--light-blue);
+}
+p{
+    font-family: 'Cantarell';
+    font-size: 16px;
+    font-weight: 100;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    color: white;
+    font-family: 'Cantarell';
+    font-weight: 200;
+    border: none;
+}
+html {
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
+}
+/*Design of navigation */ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Beyno';
+    
+}
+ul{
+    list-style: none;
+    color: #FFFFFF;
+    
+}
+.haut{
+    display: flex;
+}
+/*Design of section black panther */ 
+#panther{
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 50px;
+    padding-bottom: 150px;
+    background-image: url(../ASSETS/IllustrationsLogo/Accueil/Pantherhome1..png);
+    margin-bottom: 100px;
+    padding-top: 100px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#phome1 {
+    margin-left: 250px;
+    margin-top: 20px;
+
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 20px;
+    top: 260px;
+}
+
+#panther .description{
+    margin-top: 40px;
+    text-align: justify;
+    width: 40%;
+    font-size: smaller;
+}
+#panther img{
+    width: 100%;
+}
+/*Design of section Kill Monger */
+#killmonger {
+    width: 110%;
+    height: 220px;
+    background-color: var(--purple-color);
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+#killmonger .monger-personnage {
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+
+} 
+#killmonger .description {
+    width: 100%;
+    font-size: smaller;
+    padding: 10px;
+    text-align: justify;
+}
+#killmonger .description2 {
+    width: 100%;
+    font-size: smaller;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+#killmonger .monger1{
+    height: 280px;
+    width: 220px;
+}
+#killmonger .monger2{
+    height: 220px;
+    width: 190px;
+}
+#killmonger .monger3{
+    height: 220px;
+    width: 150px;
+}
+
+/*Design of section Prince */
+
+.prince-content{
+    display: flex;
+    justify-content: space-between;
+}
+#Prince .bose {
+    position: absolute;
+}
+#Prince .bosec {
+    margin-left:  30px;
+}
+#Prince .description{
+    margin-left: auto;
+    text-align: justify;
+    width: 100%;
+    margin-right: 400px;
+    font-size: smaller;
+
+}
+
+#Prince {
+    margin-right: 50px;
+    position: relative;
+    
+}
+/*Design of section Contact */
+#Contact {
+    background-image: url(../ASSETS/IllustrationsLogo/Accueil/Pantherhome7.png);
+    background-size: contain;
+
+}
+.contact-form {
+    background: var(--gradient-white);
+    border-radius: 50px;
+    text-align: center;
+    width: 50%;
+    margin-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.contact-form .text {
+    color: black;
+}
+
+/*Design of  Footer */
+footer {
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/back_footer.png);
+}
+
+.footer-item{
+    display: flex;
+    margin-top: 100;
+}
+.item1{
+    margin-right: 200px;
+    margin-left:100px;
+    position: static;
+}
+.footer2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 100px;
+}
+
+.copyright{
+    text-align: right;
+}
+.btn{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: medium;
+    padding: 8px;
+    background: var(--blue-color);
+    border-radius: 10px;
+    
+
+}
+.whitebtn{
+    background: var(--white-color);
+    height: 700px;
+    width: 450px;
+    color: black;
+    border-radius: 15px;
+    padding-top: 300px;
+    margin-top: 230px;
+    
+    
+}
+.text{
+    padding: 10px;
+    font-size: smaller;
+    
+}
+.text .titre{
+    text-align: center;
+
+}

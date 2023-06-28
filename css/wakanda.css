@@ -1,0 +1,184 @@
+@import url();
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../font/panthera/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+    font-family: 'Beyno';
+    src: url(../font/beyno/BEYNO.ttf);
+}
+@font-face {
+    font-family: 'Wakanda4ever';
+    src: url(../font/wakanda/Wakanda4Ever-gxg5p.ttf);
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../font/cantarell/Cantarell-Regular.ttf);
+}
+:root{
+    --white-color: #FFFFFF;
+    --gradient-white: #F2CEF2; 
+    --light-blue: #9E91B7;
+    --lighter-blue: #DF99F2;
+    --blue-color: #3D2DA6;
+    --blue-color2: #07338C;
+    --purple-color: #021740;
+}
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Beyno';
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--light-blue);
+}
+h4{
+    font-family: 'Wakanda4ever';
+    font-size: 28px;
+    font-weight: 200;
+    color: var(--light-blue);
+}
+h5{
+    font-family: 'Beyno';
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--light-blue);
+}
+p{
+    font-family: 'Cantarell';
+    font-size: 16px;
+    font-weight: 100;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+html {
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/arrière_plan.png);
+}
+body{
+    color: white;
+    font-family: 'Cantarell';
+    font-weight: 200;
+    border: none;
+}
+/*Design of navigation */ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Beyno';
+    
+}
+ul{
+    list-style: none;
+    color: #FFFFFF;
+    
+}
+.haut{
+    display: flex;
+}
+/*Design of section section1 */ 
+#section1{
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+
+#section1 .descriptionw{
+    text-align: justify;
+    font-size: smaller;
+    width: 40%;
+}
+#section1 .wakanda1 {
+    position: absolute;
+    width: 1500px;
+    height: 800px;
+    margin-left: -220px;
+    margin-top: -500px;
+}
+
+/*Design of section section2 */
+#section2{
+    margin-top: 300px;
+} 
+#section2 .origin-content{
+    display: flex;
+}
+#section2 .colone1 {
+    width: 100%;
+}
+#section2 .colone2 {
+    width: 100%;
+}
+#section2 .wakanda2 {
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+#section2 .wakanda3 {
+    width: 100%; 
+}
+#section2 .description2 {
+    width: 90%;
+    text-align: justify;
+    font-size: smaller;
+}
+#section2 .description1 {
+    width: 90%;
+    text-align: justify;
+    font-size: smaller;
+}
+
+/*Design of  Footer */
+.footer-item{
+    display: flex;
+    margin-top: 100;
+    background-image: url(../ASSETS/IllustrationsLogo/Allpages/back_footer.png);
+    padding-top: 200px;
+    background-size: 200%;
+}
+.item1{
+    margin-right: 200px;
+    margin-left:100px;
+    position: static;
+}
+
+.footer2 {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 100px;
+}
+.copyright{
+    text-align: right;
+}
+.btn{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: medium;
+    padding: 8px;
+    background: var(--blue-color);
+    
+
+}
+.whitebtn{
+    background: var(--white-color);
+    height: 400px;
+    color: black;
+    
+    
+}
+.text{
+    padding: 10px;
+    font-size: smaller;
+    
+}
+.text .titre{
+    text-align: center;
