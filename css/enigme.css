@@ -233,3 +233,18 @@ ul{
     font-size: x-small;
     width: 50%;
 }
+/*Design of Reponse et Envoyer */ 
+#alphabet input[value="Reponse"] {
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px bold white;
+    background:white;
+}
+#alphabet input[value="ENVOYER"] {
+    width: 10%;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px bold white;
+    background:white;
+}
