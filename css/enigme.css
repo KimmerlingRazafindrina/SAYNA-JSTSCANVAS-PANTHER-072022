@@ -35,12 +35,14 @@ h1{
     font-size: 56px;
     font-weight: 400;
     color: var(--light-blue);
+    padding-bottom: 50px;
 }
 h2{
-    font-family: 'Wakanda4ever';
-    font-size: 28px;
+    font-family: 'Beyno';
+    font-size: small;
     font-weight: 200;
     color: var(--light-blue);
+    text-decoration: underline;
 }
 p{
     font-family: 'Cantarell';
@@ -120,8 +122,8 @@ ul{
 #Dora .backtext1{
     position: absolute;
     width: 600px;
-    height: 400px;
-    margin-top: -250px;
+    height: 450px;
+    margin-top: -300px;
 }
 #alphabet .backtext2 {
     position: absolute;
@@ -201,4 +203,26 @@ ul{
 .text .titre{
     text-align: center;
 
+}
+/*Design of enigme_1.4 */ 
+.enigme1{
+    margin: 5px;
+}
+.description1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: small;
+}
+#alphabet .backtext21 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -300px;
+    width: 600px;
+    height: 400px;
+}
+#Dora .face{
+    width: 3%;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -20px;
 }
