@@ -106,6 +106,7 @@ ul{
     margin-left: 200px;
     background-size: 200%;
     background-position: 0%;
+    border: #F2CEF2;
 }
 #Dora img{
     width: 100%;
@@ -121,7 +122,7 @@ ul{
 }
 #Dora .backtext1{
     position: absolute;
-    width: 600px;
+    width: 800px;
     height: 450px;
     margin-top: -300px;
 }
@@ -224,7 +225,7 @@ ul{
     width: 3%;
     position: absolute;
     margin-left: 400px;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 /*Design of enigme_1.5 */ 
 .description2{
